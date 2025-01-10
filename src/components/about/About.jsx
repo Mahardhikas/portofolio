@@ -17,7 +17,8 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">Frontend developer yang memiliki pengalaman 8 bulan dalam sebuah projek dan berhasil membuat website</p>
+                    <p className="about__description">Saya memiliki kemampuan untuk membangun aplikasi web berbasis React.js dan saya juga berpengalaman dalam mengelola database 
+                    perusahaan, termasuk desain, pemeliharaan, dan optimalisasi data.</p>
 
                     <a download="" href={CV} className="button button--flex">
                         Download CV
