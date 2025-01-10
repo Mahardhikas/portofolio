@@ -50,7 +50,7 @@ const Qualification = () => {
 
                         <div>
                             <h3 className="qualification__title">IPA</h3>
-                            <span className="qualification__subtitle">SMA</span>
+                            <span className="qualification__subtitle">SMA Negeri 9 bogor</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calender-alt"></i>
                             </div> 2017 - 2020
