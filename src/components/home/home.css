@@ -154,8 +154,16 @@
   
   @media screen and (max-width: 768px) {
     .home__content {
+        display: flex;
+        justify-content: space-between;
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;
+        flex-direction: column;
+    }
+
+    .home__social {
+        display: flex;
+        gap: 1rem;
     }
 
     .home__img {
