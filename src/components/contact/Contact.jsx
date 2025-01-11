@@ -64,7 +64,7 @@ const Contact = () => {
                     </div>
 
                     <button className="button button--flex">
-                        send message
+                        kirim pesan
                         <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"
