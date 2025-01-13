@@ -3,9 +3,25 @@ import "./about.css"
 import AboutImg from "../../assets/profile.jpeg";
 import CV from "../../assets/Dhika-Cv.pdf";
 import Info from './Info';
+import CvEng from "../../assets/Dhika-Cv-eng.pdf"
 
 
 const About = () => {
+    const handleDownload = () => {
+        const files = [
+          { url: CV, name: "CV.pdf" },
+          { url: CvEng, name: "CV_English.pdf" }
+        ];
+      
+        files.forEach(file => {
+          const link = document.createElement('a');
+          link.href = file.url;
+          link.download = file.name; // Pastikan nama file diatur di sini
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        });
+      };
   return (
     <section className="about section" id="about">
         <h2 className="section__title">Tentang Saya</h2>
@@ -20,7 +36,7 @@ const About = () => {
                     <p className="about__description">Saya memiliki kemampuan untuk membangun aplikasi web berbasis React.js dan saya juga berpengalaman dalam mengelola database 
                     perusahaan, termasuk desain, pemeliharaan, dan optimalisasi data.</p>
 
-                    <a download="" href={CV} className="button button--flex">
+                    <button onClick={handleDownload} className="button button--flex">
                         Download CV
                         <svg
                             class="button__icon"
@@ -47,7 +63,7 @@ const About = () => {
                             fill="var(--container-color)"
                             ></path>
                         </svg>
-                    </a>
+                    </button>
                 </div>
             </div>
         
