@@ -4,6 +4,7 @@ import Work3 from "../../assets/work3.jpg"
 import Work4 from "../../assets/work4.jpg"
 import Work5 from "../../assets/work5.jpg"
 import Work6 from "../../assets/work6.jpg"
+import Work7 from "../../assets/work7.jpg"
 
 
 export const  projectsData = [
@@ -48,7 +49,14 @@ export const  projectsData = [
       title: "Portofolio as IT Support Database",
       category: "data",
       link: "https://drive.google.com/file/d/1y3WcXpu2nKkBLe-7buYIWXs-R5Lel0Rn/view?usp=sharing"
-    }
+    },
+    {
+    id: 7,
+    image: Work7,
+    title: "Sertifikat SQL for Data Analysis",
+    category: "sertifikat",
+    link: "https://storage.googleapis.com/myskill-v2-certificates/topic-DDujKITvy3VJuXrhC2ou/1WN1xL8l9wPCRld0X9aL6HSuqn12-7k7RsBUKuIjzvKJm3aBH.pdf"
+    },
   ];
 
   export const projectsNav = [
