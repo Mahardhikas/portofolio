@@ -56,7 +56,7 @@ const Data = () => {
                 </svg>
             </h1>
             <h3 className="home__subtitle">Front-End Web Developer</h3>
-            <p className="home__description">Saya merupakan lulusan Sistem Informasi dengan pengalaman 10 bulan di bidang IT Support dan 8 bulan dalam pengembangan Front-End Web Development.</p>
+            <p className="home__description">Saya merupakan lulusan Sistem Informasi dengan pengalaman 1 tahun di bidang IT Support Database dan 1 tahun dalam pengembangan Front-End Web Development.</p>
 
             <a href="#contact" className="button button--flex">
                 Hubungi
